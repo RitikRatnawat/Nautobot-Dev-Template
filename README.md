@@ -1,16 +1,20 @@
-# Developing Nautobot Plugins Blog Series
+# Nautobot Base Development Template
 
-This code is for the Developing Nautobot Plugins [blog series](https://blog.networktocode.com/post/developing-nautobot-plugins-1/). Before using this code, you will need to install Python and [Python Poetry](https://python-poetry.org/). Once the pre-requisites have been installed, clone the repository and checkout the tagged commit for whichever article you are one:
+Follow the Steps to setup the Development Environment :
 
 ```shell
-$ git clone https://github.com/networktocode-llc/nautobot-plugin-tutorial
-$ git checkout part1
+$ git clone git@github.com:RitikRatnawat/Nautobot-Dev-Template.git
+$ cd <your-repo-folder-name>
 ```
 
-Once the code is cloned and checked out, simply start the development environment:
+Once the code is cloned, create a virtual environment and install the dependencies:
 
 ```shell
 $ poetry shell
 $ poetry install
-$ invoke build debug
 ```
+
+After that start a plugin with following steps:
+ 1. Change the folder name from <your-plugin-name> to your plugin name.
+ 2. Update the __init__.py file in the plugin folder with your plugin name.
+ 3. Update tasks.py file in the current working directory in which update all occurrences of term <your_plugin_name> with your plugin name.
