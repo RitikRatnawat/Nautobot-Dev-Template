@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "<your-plugin-name"
+name = "<your-plugin-name>"
 version = "0.1.0"
 description = "description of your plugin"
 authors = ["Network to Code, LLC <info@networktocode.com>"]
