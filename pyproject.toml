@@ -1,17 +1,17 @@
 [tool.poetry]
-name = "nautobot-example-dns-manager"
+name = "<your-plugin-name"
 version = "0.1.0"
-description = "Nautobot Example DNS Manager"
+description = "description of your plugin"
 authors = ["Network to Code, LLC <info@networktocode.com>"]
 readme = "README.md"
-homepage = "https://github.com/networktocode/nautobot-example-dns-manager"
-repository = "https://github.com/networktocode/nautobot-example-dns-manager"
+homepage = "https://github.com/networktocode/<your-plugin-name>"
+repository = "https://github.com/networktocode/<your-plugin-name>"
 keywords = ["nautobot", "nautobot-plugin"]
 include = [
     "README.md",
 ]
 packages = [
-    { include = "nautobot_example_dns_manager" },
+    { include = "your-plugin-name" },
 ]
 
 [tool.poetry.dependencies]
