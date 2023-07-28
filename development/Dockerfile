@@ -10,6 +10,7 @@ ENV NAUTOBOT_ROOT ${NAUTOBOT_ROOT}
 
 WORKDIR $NAUTOBOT_ROOT
 
+RUN poetry self update
 # Configure poetry
 RUN poetry config virtualenvs.create false \
     && poetry config installer.parallel false
