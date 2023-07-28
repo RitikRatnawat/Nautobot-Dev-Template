@@ -20,5 +20,6 @@ Now to start the Development Environment, Execute the command:
 ```shell
 $ poetry shell
 $ poetry install
-$ invoke start debug
+$ invoke build debug
+$ invoke start
 ```
