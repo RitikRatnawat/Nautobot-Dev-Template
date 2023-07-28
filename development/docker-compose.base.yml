@@ -7,7 +7,7 @@ x-nautobot-build: &nautobot-build
     context: "../"
     dockerfile: "development/Dockerfile"
 x-nautobot-base: &nautobot-base
-  image: "<your-plugin-name>/nautobot:latest"
+  image: "<your-plugin-name>-nautobot:latest"
   env_file:
     - "development.env"
     - "creds.env"
