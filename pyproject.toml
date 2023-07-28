@@ -11,7 +11,7 @@ include = [
     "README.md",
 ]
 packages = [
-    { include = "your-plugin-name" },
+    { include = "<your-plugin-name>" },
 ]
 
 [tool.poetry.dependencies]
